@@ -1,5 +1,14 @@
+<script setup lang="ts">
+import TheHeader from '~/components/TheHeader.vue'
+import TheFooter from '~/components/TheFooter.vue'
+</script>
+
 <template>
-  <div>
+  <TheHeader />
+
+  <main class="flex-1 body-container">
     App
-  </div>
+  </main>
+
+  <TheFooter />
 </template>
