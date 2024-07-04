@@ -16,6 +16,7 @@
     "vue": "^3.4.31"
   },
   "devDependencies": {
+    "@hecticme/eslint-config": "^0.0.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
