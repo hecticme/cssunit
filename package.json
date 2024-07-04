@@ -10,6 +10,7 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
+    "lint": "eslint .",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
