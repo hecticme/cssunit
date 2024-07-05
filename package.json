@@ -28,6 +28,7 @@
     "eslint": "^9.6.0",
     "npm-run-all2": "^6.2.2",
     "postcss": "^8.4.39",
+    "shiki": "^1.10.1",
     "tailwindcss": "^3.4.4",
     "typescript": "~5.5.3",
     "vite": "^5.3.3",
