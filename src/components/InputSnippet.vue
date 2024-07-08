@@ -24,7 +24,7 @@ watch(inputSnippet, async () => {
       autocapitalize="off"
       autocomplete="off"
       autocorrect="off"
-      class="absolute inset-0 text-transparent bg-transparent bg-gray-800 px-5 py-3 rounded-lg"
+      class="absolute inset-0 text-transparent bg-transparent bg-gray-800 rounded-lg"
       name="input-snippet"
     />
   </div>
