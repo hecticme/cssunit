@@ -9,7 +9,7 @@ import OutputSnippet from '~/components/OutputSnippet.vue'
   <TheHeader />
 
   <main class="flex-1">
-    <div class="body-container">
+    <div class="body-container grid grid-cols-1 md:grid-cols-2 gap-2">
       <InputSnippet />
 
       <OutputSnippet />
