@@ -16,7 +16,7 @@ watch(inputSnippet, async () => {
 <template>
   <div class="relative">
     <!-- eslint-disable-next-line -->
-    <div v-html="html"></div>
+    <div class="font-mono" v-html="html"></div>
 
     <textarea
       id="input-snippet"
@@ -24,7 +24,7 @@ watch(inputSnippet, async () => {
       autocapitalize="off"
       autocomplete="off"
       autocorrect="off"
-      class="absolute inset-0 text-transparent bg-transparent bg-gray-800 rounded-lg caret-white"
+      class="font-mono absolute inset-0 text-transparent bg-transparent bg-gray-800 rounded-lg caret-white"
       name="input-snippet"
     />
   </div>
