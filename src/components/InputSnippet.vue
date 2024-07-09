@@ -20,7 +20,7 @@ watch(inputSnippet, async () => {
 </script>
 
 <template>
-  <div class="relative">
+  <div class="relative min-h-96">
     <!-- eslint-disable-next-line -->
     <div class="font-mono" v-html="html"></div>
 
