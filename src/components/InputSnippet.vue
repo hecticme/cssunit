@@ -2,6 +2,10 @@
 import { ref, watch } from 'vue'
 import { codeToHtml } from 'shiki'
 
+const emit = defineEmits([
+  'updateCode',
+])
+
 const inputSnippet = ref('')
 const html = ref('')
 
@@ -10,6 +14,8 @@ watch(inputSnippet, async () => {
     lang: 'css',
     theme: 'ayu-dark',
   })
+
+  emit('updateCode', inputSnippet.value)
 })
 </script>
 
