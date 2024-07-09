@@ -20,6 +20,10 @@ watch(() => props.code, async () => {
     theme: 'ayu-dark',
   })
 })
+
+function copyOutput () {
+  navigator.clipboard.writeText(convertedCode.value)
+}
 </script>
 
 <template>
@@ -27,6 +31,7 @@ watch(() => props.code, async () => {
     <button
       aria-label="Copy converted code"
       class="absolute top-4 right-4 p-2 rounded bg-gray-700 hover:bg-gray-800 border border-gray-600 opacity-20 group-hover:opacity-80 transition-[background-color,opacity] duration-300"
+      @click="copyOutput"
     >
       <Icon icon="ph:copy-duotone" />
     </button>
