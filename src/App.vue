@@ -12,7 +12,7 @@ const codeInput = ref('')
   <TheHeader />
 
   <main class="flex-1">
-    <div class="body-container grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
+    <div class="body-container grid grid-cols-1 md:grid-cols-2 gap-2 mt-3 md:mt-8">
       <InputSnippet @update-code="userInput => codeInput = userInput" />
 
       <OutputSnippet :code="codeInput" />
