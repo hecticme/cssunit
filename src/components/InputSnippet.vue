@@ -20,7 +20,12 @@ watch(inputSnippet, async () => {
 </script>
 
 <template>
-  <div class="relative min-h-96">
+  <div
+    class="relative min-h-96 rounded-lg overflow-hidden"
+    :style="{
+      backgroundColor: '#0b0e14',
+    }"
+  >
     <!-- eslint-disable-next-line -->
     <div class="font-mono" v-html="html"></div>
 
