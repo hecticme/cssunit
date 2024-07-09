@@ -42,7 +42,12 @@ function copyOutput () {
 </script>
 
 <template>
-  <div class="relative group">
+  <div
+    class="relative group rounded-lg overflow-hidden"
+    :style="{
+      backgroundColor: '#0b0e14',
+    }"
+  >
     <button
       aria-label="Copy converted code"
       class="absolute flex justify-center top-2 right-2 p-2 rounded bg-gray-700 hover:bg-gray-800 border border-gray-600 opacity-20 group-hover:opacity-80 transition-[background-color,opacity] duration-300"
