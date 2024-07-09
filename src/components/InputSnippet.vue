@@ -24,7 +24,7 @@ watch(inputSnippet, async () => {
       autocapitalize="off"
       autocomplete="off"
       autocorrect="off"
-      class="font-mono absolute inset-0 text-transparent bg-transparent bg-gray-800 rounded-lg caret-white resize-none focus:outline-none"
+      class="font-mono absolute inset-0 text-transparent bg-transparent rounded-lg caret-white resize-none focus:outline-none"
       name="input-snippet"
     />
   </div>
