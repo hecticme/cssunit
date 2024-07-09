@@ -43,7 +43,7 @@ function copyOutput () {
 
 <template>
   <div
-    class="relative group rounded-lg overflow-hidden"
+    class="relative group p-4 rounded-lg overflow-hidden"
     :style="{
       backgroundColor: '#0b0e14',
     }"

@@ -21,7 +21,7 @@ watch(inputSnippet, async () => {
 
 <template>
   <div
-    class="relative min-h-96 rounded-lg overflow-hidden"
+    class="relative min-h-96 p-4 rounded-lg overflow-hidden"
     :style="{
       backgroundColor: '#0b0e14',
     }"
@@ -35,7 +35,7 @@ watch(inputSnippet, async () => {
       autocapitalize="off"
       autocomplete="off"
       autocorrect="off"
-      class="font-mono absolute inset-0 text-transparent bg-transparent rounded-lg caret-white resize-none focus:outline-none"
+      class="font-mono absolute inset-0 p-4 text-transparent bg-transparent rounded-lg caret-white resize-none focus:outline-none"
       name="input-snippet"
     />
   </div>
