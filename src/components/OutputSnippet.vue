@@ -21,8 +21,23 @@ watch(() => props.code, async () => {
   })
 })
 
+const copyIndicatorTimeout = ref<number | null>(null)
+const showCopyIndicator = ref(false)
+
 function copyOutput () {
   navigator.clipboard.writeText(convertedCode.value)
+
+  if (copyIndicatorTimeout.value !== null) {
+    clearTimeout(copyIndicatorTimeout.value)
+    copyIndicatorTimeout.value = null
+  }
+
+  showCopyIndicator.value = true
+
+  copyIndicatorTimeout.value = setTimeout(() => {
+    showCopyIndicator.value = false
+    copyIndicatorTimeout.value = null
+  }, 2000)
 }
 </script>
 
