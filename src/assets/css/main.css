@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+}
+
 @layer utilities {
   .body-container {
     max-width: theme(maxWidth.7xl);
