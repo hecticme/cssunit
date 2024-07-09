@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex justify-center items-center gap-2 h-8 text-sm">
+  <footer class="flex justify-center items-center gap-2 h-10 text-sm">
     <p>2024-PRESENT © H. Ngọc Minh</p>
 
     <a
