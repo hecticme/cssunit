@@ -1,3 +1,5 @@
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,7 +7,11 @@ export default {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ['"Jetbrains Mono"', defaultTheme.fontFamily.mono],
+      },
+    },
   },
   plugins: [],
 }
