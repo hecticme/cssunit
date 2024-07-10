@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <header class="flex items-center h-20">
+  <header class="flex items-center h-16">
     <div class="body-container w-full flex justify-between items-center">
       <h4 class="font-semibold text-sm italic">
         CSSUnitConverter
