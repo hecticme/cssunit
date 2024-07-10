@@ -1,33 +1,29 @@
-# css-unit-converter
+# <samp>🧮 css-unit-converter<samp>
 
-This template should help get you started developing with Vue 3 in Vite.
+A small application to convert CSS unit inside a code snippet.
 
-## Recommended IDE Setup
+## 💻️ Development
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This repository uses `pnpm`, if you have not installed it, please make sure to enable corepack first.
 
-## Type Support for `.vue` Imports in TS
+```bash
+corepack enable
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Install dependencies
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+Run development server
 
-```sh
+```bash
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## License
 
-```sh
-pnpm build
-```
+Published under [MIT License](./LICENCE).
+
+Copyright (c) 2024-PRESENT, H. Ngọc Minh
