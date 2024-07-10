@@ -50,13 +50,13 @@ function copyOutput () {
   >
     <button
       aria-label="Copy converted code"
-      class="absolute flex justify-center top-2 right-2 p-2 rounded bg-gray-700 hover:bg-gray-800 border border-gray-600 opacity-20 group-hover:opacity-80 transition-[background-color,opacity] duration-300"
+      class="absolute flex items-center top-2 right-2 p-2 rounded bg-gray-700 hover:bg-gray-800 border border-gray-600 opacity-20 group-hover:opacity-80 transition-[background-color,opacity] duration-300"
       @click="copyOutput"
     >
       <Transition>
         <div
           v-if="showCopyIndicator"
-          class="absolute -top-[100%] bg-gray-700 border border-gray-600 rounded px-2 py-1 text-xs"
+          class="absolute right-[120%] bg-gray-700 border border-gray-600 rounded px-2 py-1 text-xs"
         >
           Copied!
         </div>
@@ -80,6 +80,6 @@ function copyOutput () {
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
-  transform: translateY(2px) scale(95%);
+  transform: translateX(2px) scale(95%);
 }
 </style>
