@@ -11,8 +11,8 @@ const codeInput = ref('')
 <template>
   <TheHeader />
 
-  <main class="flex-1">
-    <div class="body-container grid grid-cols-1 md:grid-cols-2 gap-2 mt-3 md:mt-8">
+  <main class="flex-1 flex flex-col">
+    <div class="body-container flex-1 grid grid-cols-1 md:grid-cols-2 gap-2 mt-3 md:mt-8">
       <InputSnippet @update-code="userInput => codeInput = userInput" />
 
       <OutputSnippet :code="codeInput" />
